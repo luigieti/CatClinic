@@ -4,7 +4,6 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<link rel="stylesheet" type="text/css" href="/Ressources/Public/css/main.css" />
 	<title>Cat Clinic - Console de gestion</title>
-    <script type="text/javascript" src="/Ressources/Public/js/jquery-1.3.2.min.js"></script>
 </head>
 <body>
     <div id="header"><?php Vue::montrer('standard/entete'); ?></div>
