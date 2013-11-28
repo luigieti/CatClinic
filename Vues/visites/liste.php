@@ -1,6 +1,6 @@
 <h1>Vos visites</h1>
 <table>
-<caption/>
+<caption>Voici la liste de vos chats</caption>
 <thead>
 	<tr>
         <td>Nom</td>
@@ -27,7 +27,7 @@ if (count($A_vue['chat']))
 ?>
 </table>
 <table>
-<caption/>
+<caption>Voici la liste de vos visites</caption>
 <thead>
 	<tr>
 		<td>Date</td>
