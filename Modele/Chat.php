@@ -53,7 +53,7 @@ final class Chat extends CorrespondanceTable implements CorrespondanceTableInter
 
 	public function trouverParIdentifiant ($I_identifiant)
 	{
-		if (isset($I_identifiant) && is_integer($I_identifiant)) {
+		if (isset($I_identifiant)) {
 			$S_requete    = "SELECT nom, age, tatouage FROM " . $this->_S_nomTable .
 	                        " WHERE id = $I_identifiant";
 			$O_connexion  = ConnexionMySQL::recupererInstance();
