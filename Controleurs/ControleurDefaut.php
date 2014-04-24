@@ -33,7 +33,7 @@ final class ControleurDefaut
 			} else {
 				// un admin doit avoir la liste des utilisateurs du site
 				// je les récupère tous...
-                $O_listeurUtilisateur = new ListeurUtilisateur();
+                                $O_listeurUtilisateur = new ListeurUtilisateur();
 				$A_utilisateurs = $O_listeurUtilisateur->lister();
 				$O_paginateur = new Paginateur($O_listeurUtilisateur);
 
